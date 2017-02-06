@@ -7,12 +7,25 @@
 //
 
 import UIKit
+import AnimationKeyFrameGenerator
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let test = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 10))
+        test.backgroundColor = UIColor.red
+        self.view.addSubview(test)
+        
+        let kfGenerator = KFGenerator<CGFloat>.default.timingFunction(.elasticEaseOut).from(5, to: 100)
+        let animation = CAKeyframeAnimation(keyPath: "position.x")
+        animation.values = kfGenerator.keyFrames()
+        animation.duration = 2
+        animation.fillMode = kCAFillModeForwards
+        test.layer.add(animation, forKey: "center.x")
+        test.layer.position.x = 100
+
+        
     }
 
     override func didReceiveMemoryWarning() {

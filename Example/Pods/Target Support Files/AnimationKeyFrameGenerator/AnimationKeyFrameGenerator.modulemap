@@ -1,0 +1,6 @@
+framework module AnimationKeyFrameGenerator {
+  umbrella header "AnimationKeyFrameGenerator-umbrella.h"
+
+  export *
+  module * { export * }
+}

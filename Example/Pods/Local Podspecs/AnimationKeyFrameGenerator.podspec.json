@@ -1,0 +1,22 @@
+{
+  "name": "AnimationKeyFrameGenerator",
+  "version": "0.1.0",
+  "summary": "A short description of AnimationKeyFrameGenerator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/n41l/AnimationKeyFrameGenerator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "n41l": "diueym@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/n41l/AnimationKeyFrameGenerator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnimationKeyFrameGenerator/Classes/**/*"
+}

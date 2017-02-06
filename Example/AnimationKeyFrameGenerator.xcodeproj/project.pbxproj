@@ -32,8 +32,8 @@
 		2401BE3B55866A7B1DDCB713 /* Pods-AnimationKeyFrameGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationKeyFrameGenerator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationKeyFrameGenerator_Tests/Pods-AnimationKeyFrameGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3019C571BB09AF47F8CBE3B7 /* Pods-AnimationKeyFrameGenerator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationKeyFrameGenerator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationKeyFrameGenerator_Tests/Pods-AnimationKeyFrameGenerator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		44D17E1EC062C0BF44820437 /* Pods-AnimationKeyFrameGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationKeyFrameGenerator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationKeyFrameGenerator_Example/Pods-AnimationKeyFrameGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4C4E78008B0D6FAB0754BC5F /* AnimationKeyFrameGenerator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AnimationKeyFrameGenerator.podspec; path = ../AnimationKeyFrameGenerator.podspec; sourceTree = "<group>"; };
-		54BECB421ABFDFB3A0DB104A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4C4E78008B0D6FAB0754BC5F /* AnimationKeyFrameGenerator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnimationKeyFrameGenerator.podspec; path = ../AnimationKeyFrameGenerator.podspec; sourceTree = "<group>"; };
+		54BECB421ABFDFB3A0DB104A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AnimationKeyFrameGenerator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationKeyFrameGenerator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACE51AFB9204008FA782 /* AnimationKeyFrameGenerator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationKeyFrameGenerator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8C0CDF9030BC3FAE71E1C659 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8C0CDF9030BC3FAE71E1C659 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C9D4474C2D744A5ADF1B2EFC /* Pods-AnimationKeyFrameGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationKeyFrameGenerator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationKeyFrameGenerator_Example/Pods-AnimationKeyFrameGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FE73FBD01B63D9A2ABC1634A /* Pods_AnimationKeyFrameGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationKeyFrameGenerator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -215,9 +215,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = L9AQ5M8FS5;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = L9AQ5M8FS5;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -489,11 +493,13 @@
 			baseConfigurationReference = 44D17E1EC062C0BF44820437 /* Pods-AnimationKeyFrameGenerator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9AQ5M8FS5;
 				INFOPLIST_FILE = AnimationKeyFrameGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -502,11 +508,13 @@
 			baseConfigurationReference = C9D4474C2D744A5ADF1B2EFC /* Pods-AnimationKeyFrameGenerator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9AQ5M8FS5;
 				INFOPLIST_FILE = AnimationKeyFrameGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -514,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2401BE3B55866A7B1DDCB713 /* Pods-AnimationKeyFrameGenerator_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = L9AQ5M8FS5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -526,6 +535,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -533,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3019C571BB09AF47F8CBE3B7 /* Pods-AnimationKeyFrameGenerator_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = L9AQ5M8FS5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -541,6 +552,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

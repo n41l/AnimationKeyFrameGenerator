@@ -1,0 +1,16 @@
+PODS:
+  - AnimationKeyFrameGenerator (0.1.0)
+
+DEPENDENCIES:
+  - AnimationKeyFrameGenerator (from `../`)
+
+EXTERNAL SOURCES:
+  AnimationKeyFrameGenerator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimationKeyFrameGenerator: 5ea3df2bba6039d4ed35321238a7e499d945e1f7
+
+PODFILE CHECKSUM: 5e7074092a184984a07775718ca61cdd46c97db1
+
+COCOAPODS: 1.1.1
