@@ -8,13 +8,13 @@
 
 import Foundation
 
-public protocol KFAnimatable: Comparable {
+public protocol KFAnimatable {
     static var zero: Self { get }
     
-    func +(lhs: Self, rhs: Self) -> Self
-    func -(lhs: Self, rhs: Self) -> Self
-    func /(lhs: Self, rhs: CGFloat) -> Self
-    func *(lhs: Self, rhs: CGFloat) -> Self
+    static func +(lhs: Self, rhs: Self) -> Self
+    static func -(lhs: Self, rhs: Self) -> Self
+    static func /(lhs: Self, rhs: CGFloat) -> Self
+    static func *(lhs: Self, rhs: CGFloat) -> Self
 }
 
 extension KFAnimatable {
