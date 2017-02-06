@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimationKeyFrameGenerator_Example' do
+  pod 'AnimationKeyFrameGenerator', :path => '../'
+
+  target 'AnimationKeyFrameGenerator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
